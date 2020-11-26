@@ -1,0 +1,83 @@
+@charset "utf-8";
+@import "public.css";
+.headCon {
+  background: #f26b11;
+}
+.headCon div > p {
+  width: auto;
+  font: 0.35rem "微软雅黑";
+  color: #fff;
+}
+.headCon p span {
+  background: #fff !important;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.main aside {
+  border-right: 1px solid #d9d9d9;
+  min-height: 11rem;
+}
+.main aside ul {
+  margin-top: .38rem;
+}
+.main aside ul li {
+  margin-bottom: .29rem;
+}
+.main aside ul li a {
+  display: block;
+  width: 1.17rem;
+  height: .52rem;
+  text-align: left;
+  font: 0.26rem/0.52rem "微软雅黑";
+  color: #666666;
+  border-left: .08rem solid transparent;
+  padding-left: .37rem;
+}
+.main aside ul li a:hover {
+  color: #f26b11;
+  border-left: .08rem solid #f26b11;
+}
+.main aside ul li:nth-of-type(1) a {
+  color: #f26b11;
+  border-left: .08rem solid #f26b11;
+}
+.main nav {
+  max-width: auto;
+}
+.main nav .nav h3 {
+  display: flex;
+  justify-content: space-between;
+  margin: .54rem .44rem .38rem .55rem;
+}
+.main nav .nav h3 span {
+  display: block;
+  font: 0.26rem "微软雅黑";
+  color: #444;
+}
+.main nav .nav h3 a {
+  display: block;
+  font: 0.24rem/0.27rem "微软雅黑";
+  color: #666;
+}
+.main nav .nav ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main nav .nav ul li {
+  padding: 0 0 .26rem .26rem;
+}
+.main nav .nav ul li a {
+  display: block;
+}
+.main nav .nav ul li a img {
+  width: 1.54rem;
+  height: 1.52rem;
+}
+.main nav .nav ul li a p {
+  font: 0.24rem "微软雅黑";
+  color: #888;
+  padding-top: .22rem;
+}

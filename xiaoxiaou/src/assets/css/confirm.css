@@ -1,0 +1,301 @@
+@charset "utf-8";
+.page {
+  padding-bottom: 1.17rem;
+}
+.headCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: .85rem;
+  background: #fff;
+  padding: .43rem .23rem 0;
+  border-bottom: 1px solid #e4e4e4;
+}
+.headCon > a img {
+  width: .15rem;
+  height: .32rem;
+}
+.headCon .logo img {
+  max-height: .29rem;
+}
+.headCon input {
+  width: 3.04rem;
+  height: .39rem;
+  background: #eee;
+  text-align: center;
+  border-radius: .06rem;
+}
+.headCon p {
+  display: flex;
+  justify-content: space-between;
+  width: .55rem;
+}
+.headCon p span {
+  display: block;
+  width: .12rem;
+  height: .11rem;
+  background: #030303;
+  border-radius: 50%;
+}
+.page {
+  max-width: 7.5rem;
+  margin: 0 auto;
+}
+.button {
+  height: 1.17rem;
+  padding: 0 .5rem;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ebebeb;
+  width: 100%;
+  box-sizing: border-box;
+}
+.button li:nth-of-type(1) img {
+  width: .53rem;
+  height: .56rem;
+}
+.button li:nth-of-type(2) img {
+  width: .56rem;
+  height: .53rem;
+}
+.button li:nth-of-type(3) img {
+  width: .52rem;
+  height: .58rem;
+}
+.button li:nth-of-type(1) p {
+  color: #f7520e;
+}
+.button a {
+  display: block;
+  text-align: center;
+  padding: .20rem 0 .15rem 0;
+}
+.button a p {
+  padding: .12rem 0 0 0;
+  font: 0.2rem "微软雅黑";
+  color: #898989;
+}
+.button {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.page {
+  background: #f1f1f1;
+}
+.headCon {
+  background: #f26b11;
+  border: none;
+}
+.headCon div > p {
+  width: auto;
+  font: 0.35rem "微软雅黑";
+  color: #fff;
+}
+.headCon p span {
+  background: #fff !important;
+}
+.fon24 {
+  font: 0.24rem "微软雅黑";
+  color: #656565;
+}
+.fon36 {
+  font: 0.36rem "微软雅黑";
+  color: #d9323c;
+}
+.meAdd {
+  background: #fff;
+}
+.meAdd a {
+  display: block;
+  position: relative;
+  padding-bottom: .1rem;
+  margin-bottom: .12rem;
+}
+.meAdd a::before {
+  content: "";
+  width: .19rem;
+  height: .26rem;
+  background: url(../images/me/arrowRight.jpg) no-repeat top right;
+  background-size: .19rem .26rem;
+  position: absolute;
+  top: .62rem;
+  right: .25rem;
+}
+.meAdd a p {
+  font: 0.24rem "微软雅黑";
+  color: #656565;
+  padding: .24rem 0 0 .29rem;
+}
+.meAdd a p span {
+  display: inline-block;
+}
+.meAdd a p span:nth-of-type(2) {
+  width: 5.28rem;
+  text-align: left;
+}
+.mation {
+  background: #fff;
+}
+.mation ul {
+  height: 2.64rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+.mation ul li img {
+  width: 1.02rem;
+  height: 1.02rem;
+  padding: .22rem 0 0 .43rem;
+}
+.mation ul li > p {
+  font: 0.36rem "微软雅黑";
+  color: #d9323c;
+  margin: .42rem .26rem 0 0;
+}
+.mation ul li div {
+  margin: .28rem 0 .13rem .29rem;
+}
+.mation ul li div p {
+  font: 0.24rem "微软雅黑";
+  color: #656565;
+  line-height: .48rem;
+}
+.mation ul li div p:nth-of-type(2) {
+  color: #b4b4b4;
+}
+.mation ul li div p:nth-of-type(2) span {
+  font: 0.24rem "Arial";
+}
+.mation ul li:nth-of-type(2) p {
+  font: 0.24rem "微软雅黑";
+  color: #656565;
+  margin-left: .26rem;
+}
+.mation ul li:nth-of-type(2) div {
+  margin: .36rem .26rem 0 0;
+}
+.mation ul li:nth-of-type(2) div span {
+  display: block;
+  width: .62rem;
+  height: .57rem;
+  border: 1px solid #515151;
+  font: 0.32rem/0.57rem "黑体";
+  text-align: center;
+  border-radius: .04rem;
+}
+.mation ul li:nth-of-type(2) div input[type=text] {
+  width: .79rem;
+  height: .57rem;
+  text-align: center;
+  font: 0.29rem/0.57rem "Arial";
+  margin: 0 .12rem 0 .09rem;
+  border: 1px solid #515151;
+  border-radius: .04rem;
+}
+.mation > p {
+  font: 0.24rem "微软雅黑";
+  color: #656565;
+  color: #5b5b5b;
+  padding: .38rem .26rem .35rem;
+  margin-bottom: .11rem;
+}
+.coupon {
+  background: #fff;
+  margin-bottom: .1rem;
+}
+.coupon p {
+  font: 0.24rem "微软雅黑";
+  color: #656565;
+  line-height: 1.01rem;
+  padding: 0 .36rem 0 .26rem;
+}
+.coupon > p {
+  border-bottom: .02rem solid #f1f1f1;
+}
+.coupon .couponBot p {
+  font: 0.24rem "微软雅黑";
+  color: #656565;
+  line-height: 1.01rem;
+}
+.coupon .couponBot form input[type=text] {
+  width: 1.49rem;
+  height: .7rem;
+  border: .02rem solid #d7d7d7;
+  border-radius: .05rem;
+  margin-top: .16rem;
+}
+.coupon .couponBot form input[type=text]::-webkit-input-placeholder {
+  text-align: center;
+  color: #e7e7e7;
+}
+.coupon .couponBot form input[type=submit] {
+  width: .72rem;
+  height: .74rem;
+  border-radius: .05rem;
+  background: #f26b11;
+  margin: .16rem .19rem 0.09rem;
+  font: 0.24rem "微软雅黑";
+  color: #656565;
+  color: #fff;
+}
+.settlement {
+  height: 5.2rem;
+  background: #fff;
+  margin: .1rem 0 0 0;
+  padding: .26rem;
+  padding-bottom: 0;
+}
+.settlement p {
+  width: 100%;
+  display: inline-block;
+}
+.settlement p span:nth-of-type(1) {
+  float: left;
+  font: 0.24rem "微软雅黑";
+  color: #656565;
+  line-height: .43rem;
+}
+.settlement p span:nth-of-type(2) {
+  float: right;
+  font: 0.24rem "微软雅黑";
+  color: #656565;
+  color: #ea393f;
+  line-height: .43rem;
+}
+.settlement p:nth-of-type(5) {
+  padding-bottom: .19rem;
+  border-bottom: 1px solid #efefef;
+}
+.settlement p:nth-of-type(6) {
+  padding-top: .52rem;
+  text-align: right !important;
+}
+.settlement p:nth-of-type(6) span {
+  float: none;
+}
+.settlement p:nth-of-type(6) span:nth-of-type(1) {
+  font: 0.36rem "微软雅黑";
+  color: #d9323c;
+  color: #636363;
+}
+.settlement p:nth-of-type(6) span:nth-of-type(2) {
+  font: 0.36rem "微软雅黑";
+  color: #d9323c;
+}
+.settlement div {
+  display: flex;
+  justify-content: center;
+  margin-top: .45rem;
+}
+.settlement div a {
+  width: 3.55rem;
+  height: 1.12rem;
+  background: #f26b11;
+  font: 0.36rem "微软雅黑";
+  color: #d9323c;
+  color: #eaffff;
+  line-height: 1.12rem;
+  text-align: center;
+  border-radius: .05rem;
+}
